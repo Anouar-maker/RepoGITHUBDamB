@@ -1,0 +1,328 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+    background: #16476A;
+    background-image: url(../imagenes/una\ hoja\ de\ papel\ ar.png);
+    background-size: cover;
+    
+    
+}
+
+h2 {
+    color: black;
+      
+
+}
+p{
+      font-weight: bold;
+}
+
+
+
+nav {
+    display: flex;
+   
+    justify-content: center; 
+    align-items: center;
+    padding: 15px 30px;
+    background: #26355D;
+    color: white;
+    
+    font-weight: bold;
+}
+#menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+    #menu a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #menu a:hover {
+        color: #FF6C0C;
+        
+    }
+
+
+.logos{
+    
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
+
+
+   
+
+}
+.Titulos{
+    color: #FFE08F;
+    
+}
+
+.logodenav{
+    
+    width: 350px;
+    height: 180px;
+    border-radius: 12px;
+}
+
+
+
+#sobre p{
+   
+   color: aliceblue;
+}
+
+
+#inicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    background-image:url(../imagenes/papel.jpg);
+    background-size: cover;
+}
+
+#intro-palabras span {
+    font-weight: bold;
+    color: blue;
+}
+
+#foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#Favoritos ul{
+       font-weight: bold;
+       color: whitesmoke;
+
+}
+
+#casitodo{
+      display: flex;
+    flex-direction: column;  
+    
+   align-items: center
+}
+
+
+#sobre,
+#Favoritos,
+#experiencia,
+#habilidades,
+#contacto,
+#habilidades,
+#Redessociales {
+
+    padding: 40px 20px;
+    max-width: 900px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+   
+    
+    
+    
+    
+    
+    
+    
+}
+
+                        #sobre{
+                            background-color: #166a63;
+                            margin-top: 20px;
+                        }
+                  
+
+                        #Favoritos{
+                            background-color: #3B9797 ;
+                                
+
+                        }
+                        #contacto{
+                            background-color: #3B9797;
+                            width: 40rem;
+                        }
+
+                        #habilidades{
+                                background-color: #166a63 ;
+                                        
+
+                        }
+                        #Redessociales{
+                            background-color: #3B9797;
+                            
+                            
+                            
+                        }
+
+
+#lista{
+    background-color: #16476A;
+    border-radius: 12px;
+    padding: 27px;
+}
+
+
+#lugares {
+    display: flex;
+    justify-content: center;
+    
+    margin: 1em;
+    padding: 1em;
+}
+
+.cartas {
+    display: flex;
+    align-items: center;
+  
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    width: 220px;
+    
+    
+}
+
+
+
+
+table, th, td {
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+table {
+    border: solid 3px black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    th {
+        background-color: #355C7D;
+        color: white;
+        padding: 10px;
+    }
+
+    td {
+        background-color: #6C9BCF;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+    td:hover{
+        background-color: #060771;
+    }
+
+
+
+
+.logohab{
+    width: 12rem;
+
+}
+.logohab2{
+    width: 8rem;
+
+}
+
+
+
+
+
+
+#formularioo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.opcion{
+
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    margin: 10px;
+
+        
+}
+legend{
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+button {
+    background: #222;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+.todared{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+.red{
+    margin: 40px;
+    background-color: #6C9BCF;
+    padding: 23px;
+    position: relative;
+    right: 4rem;
+    font-weight: bold;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #26355D;
+    color: white ;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+.logodefoter{
+    width: 150px;
+    height: 100px;
+    border-radius: 12px;
+}
